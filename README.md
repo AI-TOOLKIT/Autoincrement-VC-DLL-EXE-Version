@@ -8,7 +8,7 @@ Follow the next steps to add an automatic pre-build version increment to your DL
 
 2. Add the following files (included in the repository) to your project's root folder: FindAndReplace.ps1, version.ps1 and version_define.ps1
 
-3. Edit the version_define.ps1 file and change the version number to the minor current version of your DLL or EXE. Do not add extra spaces or characters on the version line!
+3. Edit the version_define.ps1 file and change the version number to the minor current version of your DLL or EXE. The minor version number is the second number, e.g. in v.1.2.3.4 the number '2'. Do not add extra spaces or characters on the version line!
 
 4. Add a pre-build event to your VS project (Release and any other configuration) with the following script (see the example project in the repository): 
   
